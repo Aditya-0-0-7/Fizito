@@ -1,0 +1,19 @@
+.soon
+{
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    color: #292929;
+    font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin:40px;
+}
+.comingcontainer
+{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: fit-content;
+    justify-content: flex-start;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+.card
+{
+    width:362px;
+    height:362px;
+}
+.cardimg
+{
+    width:362px;
+    height:362px;
+    background-size: 362px 362px;
+}
+.card1
+{
+    width:45vw;
+    height:45vw;
+}
+.cardimg1
+{
+    width:45vw;
+    height:45vw;
+    background-size: 45vw 45vw;
+}

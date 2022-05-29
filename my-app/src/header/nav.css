@@ -1,0 +1,122 @@
+.navbox
+{
+    position:fixed;
+    top:52px;
+    left:246px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:fit-content;
+    width:80vw;
+}
+.links
+{
+    font-family: Helvetica;
+    font-size: 1.25vw;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: var(--trans,color .4s ease 0s);
+}
+.links:focus
+{
+    color:#68B11c;
+
+}
+.links:hover
+{
+    color:#68B11c;
+}
+.links1
+{
+    font-family: Helvetica;
+    font-size: 4vw;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: var(--trans,color .4s ease 0s);
+    margin:2vh;
+}
+.links1:focus
+{
+    color:#8F1E1E;
+}
+.sub_bar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:20vw;
+    height:fit-content;
+}
+.sub_bar1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:95vw;
+    height:fit-content;
+}
+.cartlogo
+{
+    background-image: url('../pictures/cart.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 40px 50px;
+    width: 50px;
+    height: 50px;
+    position:relative;
+    bottom: 14px;
+}
+.cartcount
+{
+    border-radius: 50%;
+    width: 26px;
+    height:26px;
+    background-color: #68B11c;
+    color: white;
+    margin:3px;
+}
+.countin
+{
+    position:relative;
+    left:30%;
+    top:20%;
+}
+.user
+{
+    background-image: url('../pictures/user.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    margin:3px;
+}
+.btn
+{
+    font-family: Helvetica;
+    margin:3px;
+    font-size: 1.25vw;
+}
+.btn1
+{
+    font-family: Helvetica;
+    margin:3px;
+    font-size: 4vw;
+}
+.outbox
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height: 81vh;
+    background-color: white;
+    position:absolute;
+    top:19vh;
+    left: 0px;
+    z-index:1;
+    overflow-y: hidden;
+}

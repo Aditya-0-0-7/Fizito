@@ -1,0 +1,55 @@
+.services
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+    height:fit-content;
+    flex-wrap: wrap;
+}
+.con
+{
+    margin-bottom: 40px;
+}
+.second
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:fit-content;
+    flex-direction: column;
+}
+.what
+{
+    font-family: poppins-semibold,poppins,sans-serif;
+    font-size: 10vw;
+    color:#6ABE52;
+    font-weight: bold;
+    margin:10px;
+    text-align: center;
+
+}
+.quizaa
+{
+    font-size: 14px;
+    font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    color: #47800C;
+    margin:10px;
+    width:500px;
+    text-align: center;
+    word-wrap: break-word;
+    margin-bottom: 80px;
+}
+.quizaa1
+{
+    font-size: 14px;
+    font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    color: #47800C;
+    margin:10px;
+    width:80vw;
+    text-align: center;
+    word-wrap: break-word;
+    margin-bottom: 80px;
+    text-align: center;
+}

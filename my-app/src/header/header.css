@@ -1,0 +1,145 @@
+.headouter
+{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    display:flex;
+    width:100vw;
+    height:150px;
+    background-color: white;
+    z-index:1;
+}
+.headouter1
+{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    display:flex;
+    width:100vw;
+    height:70px;
+    background-color: white;
+    z-index:1;
+}
+.logo
+{
+    position: fixed;
+    top: 20px;
+    left:104px;
+    background-image: url('../pictures/logo.jpg');
+    background-size: 78px 78px;
+    width:78px;
+    height:78px;
+}
+.logotext
+{
+    position: fixed;
+    top: 97px;
+    left:93px;
+    background-image: url('../pictures/logotext.png');
+    background-size: 94px 28px;
+    width: 94px;
+    height: 28px;
+}
+.logo1
+{
+    position: fixed;
+    top: 8px;
+    left:5px;
+    background-image: url('../pictures/logo.jpg');
+    background-size: 50px 50px;
+    width:50px;
+    height:50px;
+}
+.menu
+{
+    position: absolute;
+    top:22px;
+    left:62px;
+    width: 22px;
+    height: 20px;
+}
+.upper
+{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    transition: all .25s ease-in-out;
+    top:0;
+}
+.middle
+{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    transition: all .25s ease-in-out;
+    top: 0;
+    bottom:0;
+    margin: auto;
+}
+.lower
+{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    transition: all .25s ease-in-out;
+    bottom: 0;
+}
+.upper_trans
+{
+    transform: translateY(10px) translateY(-50%) rotate(-45deg);
+}
+.middle_trans
+{
+    opacity: 0;
+}
+.lower_trans
+{
+    transform: translateY(-10px) translateY(50%) rotate(45deg);
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width:100vw;
+}
+.navbox1
+{
+    position:absolute;
+    top:17px;
+    left:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: fit-content;
+    width: 75vw;
+    margin:5px;
+}
+.navbox2
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: fit-content;
+    width: 95vw;
+    margin:5px;
+}
+.sub_bar2
+{
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    height: fit-content;
+    justify-content: center;
+}

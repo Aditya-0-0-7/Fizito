@@ -1,0 +1,19 @@
+.display
+{
+    position:absolute;
+    top:150px;
+    left:0;
+    min-width:100vw;
+    height: fit-content;
+    max-width: 100vw;
+}
+.display1
+{
+    position:absolute;
+    top:70px;
+    left:0;
+    min-width:100vw;
+    height: fit-content;
+    max-width: 100vw;
+}
+
